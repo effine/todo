@@ -16,4 +16,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="91dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否自动登录"
+        android:id="@+id/checkBox"
+        android:checked="true"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
